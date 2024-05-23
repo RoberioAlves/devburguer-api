@@ -1,3 +1,3 @@
 import app from './app';
-
-app.listen(3005, () => console.log('Server is running at port 3005...'))
+const PORT = 3006
+app.listen(PORT, () => console.log('Server is running at port 3006...'))
